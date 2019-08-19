@@ -3,8 +3,7 @@ const search = document.querySelector('input');
 const messageOne = document.querySelector('#message-1');
 const messageTwo = document.querySelector('#message-2');
 
-messageOne.textContent = 'from javascript'
-console.log(document.URL)
+messageOne.textContent = 'from javascript';
 weatherForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
